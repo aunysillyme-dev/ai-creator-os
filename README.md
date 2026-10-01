@@ -119,7 +119,7 @@ free. [obsidian.md](https://obsidian.md). mac, windows, ios, android.
 
 **step 2 — clone this repo**
 ```bash
-git clone https://github.com/auny-ai/ai-creator-os.git
+git clone https://github.com/aunysillyme-dev/ai-creator-os.git
 ```
 
 **step 3 — set up your vault structure**

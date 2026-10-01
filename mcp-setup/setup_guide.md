@@ -38,7 +38,7 @@ else in this system work.
 - this repo cloned locally:
 
 ```bash
-git clone https://github.com/auny-ai/ai-creator-os.git
+git clone https://github.com/aunysillyme-dev/ai-creator-os.git
 ```
 
 ---

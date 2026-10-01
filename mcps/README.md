@@ -104,4 +104,4 @@ a setup guide + a short walkthrough video = a listing.
 every MCP built here has that path available.
 
 one of them is already public and deployable in a few commands:
-[auny-ai/grok-mcp-server](https://github.com/auny-ai/grok-mcp-server).
+[aunysillyme-dev/grok-mcp-server](https://github.com/aunysillyme-dev/grok-mcp-server).

@@ -8,68 +8,68 @@ primary use cases: setting up your own AI operating system on Obsidian + Claude 
 
 ## core concepts
 
-- [README](https://github.com/auny-ai/ai-creator-os/blob/main/README.md): project overview, the core concept, quick start
-- [TOOLS](https://github.com/auny-ai/ai-creator-os/blob/main/TOOLS.md): full stack inventory with affiliate links
-- [session-protocols/01_session_start](https://github.com/auny-ai/ai-creator-os/blob/main/session-protocols/01_session_start.md): the file Claude reads first every session
-- [session-protocols/02_domain_routing](https://github.com/auny-ai/ai-creator-os/blob/main/session-protocols/02_domain_routing.md): how Claude knows which files to load for which task
-- [session-protocols/03_content_session](https://github.com/auny-ai/ai-creator-os/blob/main/session-protocols/03_content_session.md): the content batching protocol
-- [vault-structure/folder-map](https://github.com/auny-ai/ai-creator-os/blob/main/vault-structure/folder-map.md): the Obsidian vault structure
-- [vault-structure/naming-conventions](https://github.com/auny-ai/ai-creator-os/blob/main/vault-structure/naming-conventions.md): file naming rules that make the vault navigable
+- [README](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/README.md): project overview, the core concept, quick start
+- [TOOLS](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/TOOLS.md): full stack inventory with affiliate links
+- [session-protocols/01_session_start](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/session-protocols/01_session_start.md): the file Claude reads first every session
+- [session-protocols/02_domain_routing](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/session-protocols/02_domain_routing.md): how Claude knows which files to load for which task
+- [session-protocols/03_content_session](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/session-protocols/03_content_session.md): the content batching protocol
+- [vault-structure/folder-map](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/vault-structure/folder-map.md): the Obsidian vault structure
+- [vault-structure/naming-conventions](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/vault-structure/naming-conventions.md): file naming rules that make the vault navigable
 
 ## stack documentation
 
-- [stack/claude](https://github.com/auny-ai/ai-creator-os/blob/main/stack/claude.md): how Claude functions as chief of staff
-- [stack/obsidian](https://github.com/auny-ai/ai-creator-os/blob/main/stack/obsidian.md): the memory layer
-- [stack/mcp](https://github.com/auny-ai/ai-creator-os/blob/main/stack/mcp.md): Model Context Protocol overview
-- [stack/typefully](https://github.com/auny-ai/ai-creator-os/blob/main/stack/typefully.md): X scheduling via MCP
-- [stack/beehiiv](https://github.com/auny-ai/ai-creator-os/blob/main/stack/beehiiv.md): newsletter platform with MCP
-- [stack/grok](https://github.com/auny-ai/ai-creator-os/blob/main/stack/grok.md): X-native search + image generation
-- [stack/suno](https://github.com/auny-ai/ai-creator-os/blob/main/stack/suno.md): AI music generation with real prompt examples
-- [stack/distrokid](https://github.com/auny-ai/ai-creator-os/blob/main/stack/distrokid.md): music distribution pipeline
-- [stack/linear](https://github.com/auny-ai/ai-creator-os/blob/main/stack/linear.md): project management via MCP
-- [stack/claude-code](https://github.com/auny-ai/ai-creator-os/blob/main/stack/claude-code.md): the build surface where every MCP server and site in this system was written
-- [stack/cloudflare](https://github.com/auny-ai/ai-creator-os/blob/main/stack/cloudflare.md): hosting the custom MCP servers as Workers so they reach every device
-- [stack/model-routing](https://github.com/auny-ai/ai-creator-os/blob/main/stack/model-routing.md): which model gets which job, and why the writer never reviews its own work
+- [stack/claude](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/claude.md): how Claude functions as chief of staff
+- [stack/obsidian](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/obsidian.md): the memory layer
+- [stack/mcp](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/mcp.md): Model Context Protocol overview
+- [stack/typefully](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/typefully.md): X scheduling via MCP
+- [stack/beehiiv](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/beehiiv.md): newsletter platform with MCP
+- [stack/grok](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/grok.md): X-native search + image generation
+- [stack/suno](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/suno.md): AI music generation with real prompt examples
+- [stack/distrokid](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/distrokid.md): music distribution pipeline
+- [stack/linear](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/linear.md): project management via MCP
+- [stack/claude-code](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/claude-code.md): the build surface where every MCP server and site in this system was written
+- [stack/cloudflare](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/cloudflare.md): hosting the custom MCP servers as Workers so they reach every device
+- [stack/model-routing](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/stack/model-routing.md): which model gets which job, and why the writer never reviews its own work
 
 ## custom MCPs
 
-- [mcps/auny-vault](https://github.com/auny-ai/ai-creator-os/blob/main/mcps/auny-vault.md): Obsidian vault MCP (read, write, search)
-- [mcps/grok](https://github.com/auny-ai/ai-creator-os/blob/main/mcps/grok.md): X-native search + reading X links
-- [mcps/README](https://github.com/auny-ai/ai-creator-os/blob/main/mcps/README.md): every server currently running, hosted and local, and what changed since v1
-- [mcps/codex](https://github.com/auny-ai/ai-creator-os/blob/main/mcps/codex.md): correction — Codex is a CLI lane for adversarial code audit, not an MCP server
-- [mcps/remotion](https://github.com/auny-ai/ai-creator-os/blob/main/mcps/remotion.md): retired, and the deterministic HTML-to-video pipeline that replaced it
+- [mcps/auny-vault](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcps/auny-vault.md): Obsidian vault MCP (read, write, search)
+- [mcps/grok](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcps/grok.md): X-native search + reading X links
+- [mcps/README](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcps/README.md): every server currently running, hosted and local, and what changed since v1
+- [mcps/codex](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcps/codex.md): correction — Codex is a CLI lane for adversarial code audit, not an MCP server
+- [mcps/remotion](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcps/remotion.md): retired, and the deterministic HTML-to-video pipeline that replaced it
 
 ## workflows
 
-- [workflows/content-batching](https://github.com/auny-ai/ai-creator-os/blob/main/workflows/content-batching.md): a full day of content drafted to Typefully in one Claude session
-- [workflows/music-release](https://github.com/auny-ai/ai-creator-os/blob/main/workflows/music-release.md): Suno to DistroKid end-to-end pipeline
-- [workflows/music-video](https://github.com/auny-ai/ai-creator-os/blob/main/workflows/music-video.md): full music video from lyrics in one Grok Imagine Agent Mode conversation
+- [workflows/content-batching](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/workflows/content-batching.md): a full day of content drafted to Typefully in one Claude session
+- [workflows/music-release](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/workflows/music-release.md): Suno to DistroKid end-to-end pipeline
+- [workflows/music-video](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/workflows/music-video.md): full music video from lyrics in one Grok Imagine Agent Mode conversation
 
 ## content types
 
-- [content-types/written](https://github.com/auny-ai/ai-creator-os/blob/main/content-types/written.md): posts, threads, newsletters, articles
-- [content-types/art](https://github.com/auny-ai/ai-creator-os/blob/main/content-types/art.md): AI image generation workflows
-- [content-types/music](https://github.com/auny-ai/ai-creator-os/blob/main/content-types/music.md): AI music workflow
-- [content-types/video](https://github.com/auny-ai/ai-creator-os/blob/main/content-types/video.md): three video workflows
+- [content-types/written](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-types/written.md): posts, threads, newsletters, articles
+- [content-types/art](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-types/art.md): AI image generation workflows
+- [content-types/music](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-types/music.md): AI music workflow
+- [content-types/video](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-types/video.md): three video workflows
 
 ## templates
 
-- [templates/idea_card](https://github.com/auny-ai/ai-creator-os/blob/main/templates/idea_card.md): capturing monetizable ideas
-- [templates/session_log](https://github.com/auny-ai/ai-creator-os/blob/main/templates/session_log.md): rolling log Claude reads every session
-- [templates/workflow_doc](https://github.com/auny-ai/ai-creator-os/blob/main/templates/workflow_doc.md): documenting any workflow you build
-- [templates/monetization_tracker](https://github.com/auny-ai/ai-creator-os/blob/main/templates/monetization_tracker.md): tracking revenue angles
+- [templates/idea_card](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/templates/idea_card.md): capturing monetizable ideas
+- [templates/session_log](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/templates/session_log.md): rolling log Claude reads every session
+- [templates/workflow_doc](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/templates/workflow_doc.md): documenting any workflow you build
+- [templates/monetization_tracker](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/templates/monetization_tracker.md): tracking revenue angles
 
 ## content system
 
-- [content-system/content_pillars](https://github.com/auny-ai/ai-creator-os/blob/main/content-system/content_pillars.md): building a pillar system for consistent content
-- [content-system/formats_reference](https://github.com/auny-ai/ai-creator-os/blob/main/content-system/formats_reference.md): post formats and what each one optimizes for
+- [content-system/content_pillars](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-system/content_pillars.md): building a pillar system for consistent content
+- [content-system/formats_reference](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/content-system/formats_reference.md): post formats and what each one optimizes for
 
 ## setup
 
-- [mcp-setup/setup_guide](https://github.com/auny-ai/ai-creator-os/blob/main/mcp-setup/setup_guide.md): connecting MCPs to Claude Desktop
+- [mcp-setup/setup_guide](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/mcp-setup/setup_guide.md): connecting MCPs to Claude Desktop
 
 ## Optional
 
-- [LICENSE](https://github.com/auny-ai/ai-creator-os/blob/main/LICENSE): MIT
-- [CHANGELOG](https://github.com/auny-ai/ai-creator-os/blob/main/CHANGELOG.md): version history
-- [CONTRIBUTING](https://github.com/auny-ai/ai-creator-os/blob/main/CONTRIBUTING.md): contribution guidelines
+- [LICENSE](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/LICENSE): MIT
+- [CHANGELOG](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/CHANGELOG.md): version history
+- [CONTRIBUTING](https://github.com/aunysillyme-dev/ai-creator-os/blob/main/CONTRIBUTING.md): contribution guidelines

@@ -11,7 +11,7 @@ web search mid-session. when a trending post, topic, or X link
 comes up, Claude searches or reads it directly without leaving
 the conversation — no tab switching, no copy-pasting results back in.
 
-**repo:** [auny-ai/ai-creator-os](https://github.com/auny-ai/ai-creator-os)
+**repo:** [aunysillyme-dev/ai-creator-os](https://github.com/aunysillyme-dev/ai-creator-os)
 
 ---
 

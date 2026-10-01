@@ -2,7 +2,7 @@
 
 This repository is documentation only: markdown files describing a creator's AI operating system built on Obsidian, Claude, and MCP. It has no runtime, no server, no package to install, and no dependencies of its own.
 
-If a doc here recommends a practice that turns out unsafe (a credential-handling pattern, an insecure MCP setup step), report it the same way as a security issue. A vulnerability in a custom MCP this repo documents (see `mcps/`) belongs on that MCP's own repository, for example [grok-mcp-server](https://github.com/auny-ai/grok-mcp-server). A vulnerability in a third-party SaaS tool this repo documents (Suno, DistroKid, Beehiiv, Typefully, and similar) belongs with that vendor's own security-reporting channel, not with this org.
+If a doc here recommends a practice that turns out unsafe (a credential-handling pattern, an insecure MCP setup step), report it the same way as a security issue. A vulnerability in a custom MCP this repo documents (see `mcps/`) belongs on that MCP's own repository, for example [grok-mcp-server](https://github.com/aunysillyme-dev/grok-mcp-server). A vulnerability in a third-party SaaS tool this repo documents (Suno, DistroKid, Beehiiv, Typefully, and similar) belongs with that vendor's own security-reporting channel, not with this org.
 
 ## Reporting a vulnerability
 

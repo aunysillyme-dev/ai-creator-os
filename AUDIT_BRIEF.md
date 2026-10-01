@@ -17,7 +17,7 @@ frontmatter block. List findings by severity; state explicitly if nothing
 was found.
 
 ## Runtime
-Static markdown documentation in a public GitHub repo (auny-ai/ai-creator-os). No
+Static markdown documentation in a public GitHub repo (aunysillyme-dev/ai-creator-os). No
 application code, no server, no runtime. The change is a YAML frontmatter block
 prepended to two markdown files. Nothing executes this frontmatter today; it is
 metadata for future tooling (the repo's own `llms.txt` promises every content

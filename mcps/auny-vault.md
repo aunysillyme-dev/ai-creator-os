@@ -14,7 +14,7 @@ this is the core infrastructure that makes ai-creator-os work.
 every session protocol, every domain routing decision, every
 output written back to the vault — it all runs through this MCP.
 
-**repo:** [auny-ai/ai-creator-os](https://github.com/auny-ai/ai-creator-os)
+**repo:** [aunysillyme-dev/ai-creator-os](https://github.com/aunysillyme-dev/ai-creator-os)
 
 ---
 
@@ -54,7 +54,7 @@ see [mcp-setup/setup_guide.md](../mcp-setup/setup_guide.md) for full installatio
 quick version:
 
 ```bash
-git clone https://github.com/auny-ai/ai-creator-os.git
+git clone https://github.com/aunysillyme-dev/ai-creator-os.git
 cd ai-creator-os/mcps/auny-vault
 npm install
 ```
