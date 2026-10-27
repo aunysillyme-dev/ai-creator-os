@@ -1,4 +1,6 @@
 # ai-creator-os 🕷️
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/aunysillyme-dev/ai-creator-os/badge)](https://scorecard.dev/viewer/?uri=github.com/aunysillyme-dev/ai-creator-os)
 ### an AI operating system built on Obsidian + Claude + MCP
 
 **v2 — september 2026.** [what changed since v1](./CHANGELOG.md)
